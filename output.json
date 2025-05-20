@@ -1,0 +1,3 @@
+{
+    "response": "Output JSON:\n\n{\n  \"Language\": \"french\",\n  \"Messages\": [\n    {\n      \"message\": \"charger page\"\n    },\n    {\n      \"message\": \"merci\"\n    }\n  ]\n}"
+}
