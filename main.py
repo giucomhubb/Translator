@@ -77,12 +77,12 @@ Task:
 {example_json}
 """
 
-    # 4) Llamada a Ollama
+
     response = ollama.chat(
         model="llama3.1",
         messages=[{"role": "assistant", "content": prompt}]
     )
 
-    # 5) Devolvemos el contenido crudo que devuelve Ollama
+ 
     return {"response": response["message"]["content"]}
 
