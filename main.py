@@ -65,6 +65,7 @@ Tone, Grammar & Style:
 - Write short, clear sentences without ambiguity.
 - Preserve original structure: do not split, merge, or reorder sentences.
 
+
 Example of correct output:
 {example_list}
 """
@@ -120,7 +121,7 @@ Example of correct output:
                 )
         return parsed
     prompt_text = base_prompt
-    max_attempts = 5
+    max_attempts = 20
     attempt = 0
 
     while attempt < max_attempts:
